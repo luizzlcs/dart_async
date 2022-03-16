@@ -6,7 +6,7 @@ void main() {
 
 // A assinatura de um método asincrono
 // retorna sempre um 'Feture' que pode
-// ser <void> com também String ou outro
+// ser <void> como também String ou outro
 // e vao retornar o método  'async'.
 Future<void> processo2() async {
   print('Inicio do P2');
