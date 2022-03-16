@@ -4,7 +4,7 @@ void main() {
   print('Fim do P1');
 }
 
-// A assinatura de um método asyncrono
+// A assinatura de um método asincrono
 // retorna sempre um 'Feture' que pode
 // ser <void> com também String ou outro
 // e vao retornar o método  'async'.
