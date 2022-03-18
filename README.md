@@ -5,6 +5,7 @@
 <p align="center">
 <img width="300" height="150" src="assets/images/funcoes.png"/>
 
+  
 
 </p>
 
@@ -29,8 +30,10 @@
       > Execute essa chamada quando a função assíncrona terminar.
       > Você utiliza o then quando faz chamadas que retornem um Future, mas não quer esperar seu resultado .
       > Dessa forma, todo o código continuará sendo executado enquanto a função assíncrona é executada também.
-- 1_future_foreach: Retornando processos simultaneos em paralelos.
+- Future com foreach: Retornando processos simultaneos em paralelos.
 
+- Dart e o Evento Loop 
+  >   Para melhor compreensão desse assunto recomendo a leitura desse artigo https://dart.cn/articles/archive/event-loop
 
 ### Autor
 
