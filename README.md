@@ -53,6 +53,7 @@
 - Utilizando api ViaCep;
 - Utilizando os métodos: GET, POS, PUT e DELETE;
 - Criando classe modelos;
+- Leitura de arquivos txt
 
 ### Autor
 
