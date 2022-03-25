@@ -53,7 +53,10 @@
 - Utilizando api ViaCep;
 - Utilizando os métodos: GET, POS, PUT e DELETE;
 - Criando classe modelos;
-- Leitura de arquivos txt
+- Leitura de arquivos txt;
+- Strems: take, takeWhile, Skip, skipWhile, toList, Listen;
+- asBroadcastStream + de um ouvinte para a Strem;
+- Strems Controller;
 
 ### Autor
 

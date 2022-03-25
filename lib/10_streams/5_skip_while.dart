@@ -7,13 +7,22 @@
 // - stream: é a propriedade que fornece a saída do Stream.
 Future<void> main() async {
   print('Inicio...');
-  final interval = Duration(milliseconds: 2);
-  final stream = Stream<int>.periodic(interval, callback);
+  final interval = Duration(seconds: 1);
+  var stream = Stream<int>.periodic(interval, callback);
+
+  // skip -  Pula (descarta) os dois primeiros valores
+  // que chegam no Stream.
+  stream = stream.take(5).skipWhile((numero) {
+    print('Número que chegou na Strems $numero');
+    return numero < 5;
+  });
 
   //await for
   await for (var i in stream) {
     print(i);
+    print('O número que chegou no awhit for $i');
   }
+  print('FIM!');
 }
 
 int callback(int value) {
